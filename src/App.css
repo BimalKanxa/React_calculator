@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom right, rgb(59, 82, 75), rgb(33, 43, 65)); */
+    background-image: linear-gradient(to bottom right, rgb(26 205 150), rgb(64 44 171));
+}
+
+.calculator{
+    width: 320px;
+    height: 70vh;
+    border-radius: 20px;
+    /* box-shadow: #0b0e14 20px 30px 90px 4px; */
+    box-shadow: #3063c2 20px 30px 90px 4px;
+}
+
+.calculator .display{
+    height:30%;
+    padding: 5px;
+    background-color: #212b41;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+.calculator .display h2{
+    height: 60px;
+    width: 97%;
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Teko', sans-serif;
+    color: #0db387;
+    text-align: right;
+}
+
+.calculator .buttons{
+    /* background-color: #2e3951; */
+    background-color: #07081d;
+    height: 70%;
+    border-radius: 0 0 20px 20px;
+}
+
+.calculator .buttons input{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: #96a8a0;
+    font-size: 25px;
+    border-radius: 50%;
+    margin:  5px 15px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+.calculator .buttons input:active{
+   background-color:#0db387;
+   color: #212b41;
+}
+
+.calculator .buttons .btn{
+    background: #212b41;
+    color: #0db387;
+}
+
+.calculator .buttons .equal{
+    color: #212b41;
+    background-color: #0db387;
+}
+
+.calculator .buttons .equal:active{
+    background-color: #b34a0d;
+    color: #212b41;
+}
